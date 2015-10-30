@@ -40,7 +40,6 @@
 
 (defun breaktime--take-a-break ()
   "Invasively create *breaktime* buffer and closes other windows."
-  (interactive)
   (switch-to-buffer (get-buffer-create "*breaktime*"))
   (let ((inhibit-read-only t))
     (erase-buffer)
