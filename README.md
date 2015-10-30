@@ -13,3 +13,8 @@ You can stop the loop by invoking
 ```lisp
 M-x breaktime-stop
 ```
+
+You can customize your breaktime message by setting this variable:
+```lisp
+(setq breaktime-message "Hey!!!  Take a break dude!!!")
+```
